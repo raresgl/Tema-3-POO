@@ -42,7 +42,7 @@ int main()
             atl += ob;
             atl += ob1;
             atl += ob;
-            cout<<at;
+            cout<<atl;
             break;
         }
         case 5:{
