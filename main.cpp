@@ -35,20 +35,20 @@ int main()
             break;
             }
         case 4:{
-            AtlasZoologic<Peste> at;
-            Peste ob, ob2;
+            AtlasZoologic<Peste> atl;
+            Peste ob, ob1;
             cin>>ob;
-            cin>>ob2;
-            at += ob;
-            at += ob2;
-            at += ob;
+            cin>>ob1;
+            atl += ob;
+            atl += ob1;
+            atl += ob;
             cout<<at;
             break;
         }
         case 5:{
-            AtlasZoologic <Peste> at2;
-            cin >> at2;
-            cout << at2;
+            AtlasZoologic <Peste> atl1;
+            cin >> atl1;
+            cout << atl1;
         }
     }
     return 0;
